@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1. Setup\HelloWorld.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonLearning.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1. Setup\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

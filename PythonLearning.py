@@ -1,3 +1,1 @@
-#print('Hello World!')
-
-
+execfile("./1. Setup/HelloWorld.py")
