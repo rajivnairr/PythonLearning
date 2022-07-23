@@ -27,11 +27,16 @@
     <Compile Include="2. Datatypes\datatypes.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Challenges\Capital_Indexes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Challenges\Middle_Letter.py" />
     <Compile Include="PythonLearning.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1. Setup\" />
     <Folder Include="2. Datatypes\" />
+    <Folder Include="Challenges\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
